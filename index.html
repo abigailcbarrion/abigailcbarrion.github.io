@@ -53,17 +53,17 @@
             <ul class="nav nav-pills rounded-pill p-2 d-inline-flex align-items-center justify-content-center mb-2 mb-lg-0"
                 style="gap: 0.5rem; background: rgba(0,0,0,0.05);">
                 <li class="nav-item">
-                    <a class="nav-link rounded-pill px-4 py-2 text-dark active bg-transparent" href="#about">
+                    <a class="nav-link rounded-pill px-3 py-2 text-dark active bg-transparent" href="#about">
                         About
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link rounded-pill px-4 py-2 text-dark bg-transparent" href="#education">
+                    <a class="nav-link rounded-pill px-3 py-2 text-dark bg-transparent" href="#education">
                         Education
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link rounded-pill px-4 py-2 text-dark bg-transparent" href="#activities">
+                    <a class="nav-link rounded-pill px-3 py-2 text-dark bg-transparent" href="#activities">
                         Activities
                     </a>
                 </li>
@@ -75,8 +75,8 @@
     </nav>
 
     <div id="about" class="pt-5 mt-5">
-        <div class="container py-5 text-center mt-5 mt-lg-3">
-            <img src="assets/img/mypicture.jpg" alt="Profile" class="hero-img rounded-circle border border-3 mb-3">
+        <div class="container py-5 text-center mt-5 mt-lg-3" >
+            <img src="assets/img/mypicture.jpg" alt="Profile" class="hero-img rounded-circle border border-3 mb-3 ">
             <h1 class="h2 fw-bolder">Abigail Carandang Barrion</h1>
             <p class="text-muted">IT Student</p>
             <div class="row justify-content-center mt-1 mb-3">
@@ -110,7 +110,7 @@
 
     <div id="education" class="py-5 bg-light">
         <div class="container">
-            <h2 class="h3 text-center mb-4">Education</h2>
+            <h2 class="h3 text-center mt-3 mb-5" style="font-weight: 800; padding-top: 100px;">Education</h2>
             <div class="row justify-content-center g-3">
                 <div class="col-lg-8">
                     <div class="card border-0 shadow-sm">
@@ -222,12 +222,12 @@
 
     <div id="activities" class="py-5 bg-light">
         <div class="container">
-            <h2 class="h3 text-center mb-4">Activities</h2>
+            <h2 class="h3 text-center mt-3 mb-5" style="font-weight: 800; padding-top: 100px;">Activities</h2>
             <div class="row justify-content-center g-4">
                 <div class="col-lg-6 col-md-6">
                     <div class="card border-0 shadow-sm">
                         <div class="ratio ratio-16x9">
-                            <iframe src="https://abigailcbarrion.github.io/Garmin-Lily-2-Active/#overview"
+                            <iframe src="https://abigailcbarrion.github.io/Garmin-Lily-2-Active/"
                                 title="Garmin Lily 2 Active Showcase" allowfullscreen></iframe>
                         </div>
                         <div class="card-body text-center">
@@ -237,7 +237,7 @@
                                 features, specifications and
                                 variations of the product.
                             </p>
-                            <a href="https://abigailcbarrion.github.io/Garmin-Lily-2-Active/#overview"
+                            <a href="https://abigailcbarrion.github.io/Garmin-Lily-2-Active/"
                                 class="btn btn-primary btn-sm"
                                 style="background-color: lightgray; border: none; color: black;">Visit Site</a>
                         </div>
@@ -276,6 +276,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous">
+    </script>
+    <script>    
         document.querySelectorAll('.nav-link').forEach(a => a.addEventListener('click', () => { const nav = document.getElementById('nav'); if (nav.classList.contains('show')) new bootstrap.Collapse(nav).hide(); }));
     </script>
 </body>
