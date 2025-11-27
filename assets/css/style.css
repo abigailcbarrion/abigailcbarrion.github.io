@@ -1,0 +1,26 @@
+
+    html {
+        scroll-behavior: smooth
+    }
+
+    body {
+        font-family: 'Rethink Sans', sans-serif;
+    }
+
+    .hero-img {
+        width: 140px;
+        height: 140px;
+        object-fit: cover
+    }
+
+    .badge-soft {
+        background: #f5f5f5;
+        color: #666
+    }
+
+    .skill-icon {
+        width: 2rem;
+        height: 2rem;
+        font-size: 2rem;
+        vertical-align: middle;
+    }
