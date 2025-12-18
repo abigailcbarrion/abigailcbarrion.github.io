@@ -13,6 +13,11 @@ var activities = [
         "title": "Gallery - Iconic Directors of Modern Cinema and their Works",
         "description": "A website that lists down some of the most iconic directors of modern cinema and their works. It also includes my favorite movies that I found beautifully crafted.",
         "link": "https://abigailcbarrion.github.io/Gallery/index.html"
+    },
+    {
+        "title": "Your Birthday in Space: A NASA APOD Viewer",
+        "description": "This website uses NASA's Astronomy Picture of the Day (APOD) API to fetch and display the APOD for a user's birthday.",
+        "link": "https://abigailcbarrion.github.io/WD-API-NASA/index.html"
     }
 ];
 
